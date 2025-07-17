@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+    <title>Personal Profile: Custom Built From Scratch using html, CSS and vallina JS. Dark and light theme mode, Local storage </title>
+    <link rel="icon" type="image/x-icon" href="./assets/isulogo5.jpg">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-class">
+                <a href="#homepage"><img src="assets/isulogo5.jpg" alt=""></a>
+            </div>
+            <div class="menu-class">
+                <ul>
+                    <a href="#homepage"><li>Home</li></a>                    
+                    <a href="#aboutpage"><li>About</li></a>
+                    <a href="#portfoliopage"><li>Portfolio</li></a>
+                    <a href="#contact"><li>Contact</li></a>                    
+                </ul>
+            <div class="closeicon"><span>&#9932;</span></div>   
+            </div>
+            <div class="themeIcon">
+                <span class="switcher switch-light">&#9898;</span>	
+                <span class="light">&#9728;</span>
+                <span class="dark">&#9789;</span>
+            </div>
+            <div class="hamburgerIcon">&#9776;</div>          
+        </div>
+    </nav>
+
+
+    <header class="hero" id="homepage">
+        <div class="heroImage">
+            <img src="./assets/AdobeStock_1266924082_Preview.jpeg" alt="">
+            <div class="profile-pic">
+                <img src="./assets/isu.jpg" alt="" class="">
+            </div>
+            
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=61554338992602" class="fa fa-facebook"></a>
+            <a href="https://x.com/DadzieIsu?t=IRxW0njWCpmEQGlLGvzC-Q&s=09" class="fa fa-twitter"></a>
+            <a href="https://wa.me/+233209453410" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-linkedin"></a>            
+        </div>
+        <div class="hero-text">
+            <p>Isu Mustapha <br>Dadzie</p>
+        </div>
+        <div class="resume">
+            <a href="./doc/TestDocument.pdf" download><button>Download CV</button></a>
+        </div>
+    </header>
+
+    <main id="aboutpage">
+        <div class="section-heading"><h2>About</h2></div>
+        <div class="swiper about">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide item">
+                    <h4>Education</h4>
+                    <ul>
+                        <li>Master of Science (MSc.) in Telecommunications Management</li>
+                        <li>Bachelor of Engineering (BEng) in Electronics and Communication Engineering</li>
+                        <li>Diploma Marine Radio & Electronics Engineering</li>
+                    </ul>
+                </div>
+
+                <div class="swiper-slide item">
+                    <h4>Work Experience</h4>
+                    <ul>
+                        <li>
+                            Freelance: Fullstack Web Development/Application Development.
+                        </li>
+                        <li>
+                            ORANGE BUSINESS SERVICES, ACCRA
+                            Customer Service Manager (Technical Support), March, 2013 - September, 2021
+                        </li>
+                        <li>
+                            SOCIÉTÉ INTERNATIONALE DE TÉLÉCOMMUNICATIONS AÉRONAUTIQUES (SITA) ACCRA
+                            Network/System Administrator,  June, 2010 - March, 2013
+                        </li>
+
+                        <li>
+                            SOCIÉTÉ INTERNATIONALE DE TÉLÉCOMMUNICATIONS AÉRONAUTIQUES (SITA), ACCRA 
+                            Senior Field Engineer, Aug, 1997 - June, 2010
+                        </li>
+
+                    </ul>
+                </div>
+                
+                <div class="swiper-slide item">
+                    <h4>Professional Certifications</h4>
+                    <ul>
+                        <li>ITIL® 4 Managing Professional (ITIL certified Expert)</li>
+                        <li>ITIL® Intermediate Certificate in IT Service Operation.</li>
+                        <li>ITIL® Intermediate Certificate in IT Service Design</li>
+                        <li>ITIL® Intermediate Certificate in IT Service Strategy</li>
+                        <li>ITIL Intermediate certificate in transition.</li>
+                    </ul>
+                </div>          
+            </div>                 
+            <div class="swiper-pagination"></div>       
+        </div>
+    </main>
+
+    <section id="portfoliopage">
+        <h2>Porfolio</h2>
+        <div class="portfolio">
+            <div class="btns">
+                <div class="prev-btn">                    
+                    Previous
+                </div>                
+            </div>
+
+            <div class="portfolio-display">
+                <div class="portfolio-display-item">
+                    <!-- <div class="image">
+                        <img src="./assets/screenshot.png" alt="">
+                    </div>
+                    <div class="title">
+                        <h5>This is the title</h5>
+                    </div> -->
+                </div>
+            </div>
+            <div class="btns">
+                <div class="next-btn">
+                    Next
+                </div>
+            </div>             
+        </div>
+        <div class="skills-proficiency">
+            <h2>Skills</h2>
+            <div class="skills">
+
+                <div class="progressbar-container">
+                    <h5>HTML</h5>
+                    <div class="course-progress">
+                        <div class="html-progressBar">
+                            95%
+                        </div>
+                    </div>
+                </div>                
+                
+                <div class="progressbar-container">
+                    <h5>CSS</h5>
+                    <div class="course-progress">
+                        <div class="css-progressBar">
+                            75%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progressbar-container">
+                    <h5>JavaScript</h5>
+                    <div class="course-progress">
+                        <div class="js-progressBar">
+                            70%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progressbar-container">
+                    <h5>REACT Framework</h5>
+                    <div class="course-progress">
+                        <div class="react-progressBar">
+                            50%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progressbar-container">
+                    <h5>Node.js/Express.js Framework</h5>
+                    <div class="course-progress">
+                        <div class="node-progressBar">
+                            50%
+                        </div>
+                    </div>
+                </div>
+
+                <div class="progressbar-container">
+                    <h5>UI/UX</h5>
+                    <div class="course-progress">
+                        <div class="UIUX-progressBar">
+                            60%
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="progressbar-container">
+                    <h5>Customer Service Mgt</h5>
+                    <div class="course-progress">
+                        <div class="csm-progressBar">
+                            90%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="menuItems">
+            <ul>
+                <a href=""><li>Home</li></a>                    
+                <a href=""><li>About</li></a>
+                <a href=""><li>Portfolio</li></a>
+                <a href=""><li>Contact</li></a>                    
+            </ul>
+        </div>
+        <div class="address-location-videoinsertion">
+            <div class="address-location">
+                <address>
+                    Temple Street,<br>
+                    Fan Milk, <br>
+                    Ablekuma, Accra <br>
+                    Accra
+                    Tel: +233 209453410
+                </address>
+            </div>
+            <div class="videoinsertion">
+                <video controls preload="metadata">
+                    <source src="./video/Black Sherif - Sacrifice (Official Visualizer) (360p).mp4">
+                </video>
+            </div>
+        </div>          
+       <div class="copyright">&copy; Isu Mustapha Dadzie 2025</div>
+    </footer>
+
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+
+            // slidesPerView: 2,
+            // spaceBetween: 20,
+            
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+      
+            });
+    </script>
+   
+
+    <script src="js/js.js"></script>
+</body>
+</html>
